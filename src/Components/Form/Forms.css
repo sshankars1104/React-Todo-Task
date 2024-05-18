@@ -1,0 +1,36 @@
+.todo-heading {
+  margin: 20px;
+  color: #13AD89;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 2px solid #13AD89;
+  box-shadow: 0 2px 6px 0 rgb(0, 128, 0), 0 2px 2px 0 rgb(0, 128, 0);
+}
+input:focus {
+  outline: none;
+}
+.task-input {
+  margin-right: 100px;
+  width: 350px;
+}
+.add-btn {
+  margin: 10px ;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background: #13AD89;
+  box-shadow: 0 2px 6px 0 rgb(0, 128, 0), 0 2px 2px 0 rgb(0, 128, 0);
+  transition-duration: 0.4s;
+}
+.add-btn:hover {
+  background: green;
+  color: white;
+}

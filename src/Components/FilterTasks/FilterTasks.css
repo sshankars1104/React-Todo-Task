@@ -1,0 +1,24 @@
+/* .todo-list{
+ display: flex;
+ flex-direction: row;
+
+} */
+.status-filter {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.status-filter select {
+    font-size: 16px;
+    font-weight: 700;
+    width: 150px;
+    border: 2px solid #04aa6d;
+    border-radius: 8px;
+   
+}
+.status-filter select:focus {
+    outline: none;
+}
